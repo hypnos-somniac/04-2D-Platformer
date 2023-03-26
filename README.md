@@ -4,21 +4,23 @@
 
 Exercise for MSCH-C220
 
-The third exercise for the 2D Platformer project, exploring the TileMap node.
+2-D platformer project. Completed 3/25/2023
 
 
 ## Implementation
 
 Built using Godot 3.5
+3 levels
+2 enemy types
+individual music for each level
+sound effects
+partially "animated" player sprite
+coins
+HUD with score
 
-The player sprite adapted from [MV Platformer Male](https://opengameart.org/content/mv-platformer-male-32x64) by MoikMellah. CC0 Licensed.
-
-The terrain spritemap is from the [Abstract Platformer package](https://kenney.nl/assets/abstract-platformer) available at Kenney.nl.
 
 
 ## References
-
-None
 
 
 ## Future Development
