@@ -5,6 +5,9 @@ var fade_speed = 0.015
 
 var fade_in = false
 var fade_out = ""
+var score = 0
+var lives = 5
+var level = 1
 
 var death_zone = 1000
 

@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Casual game track.mp3-7ab87b13b438ddb18190fd2c44e263b7.mp3str"
+
+[deps]
+
+source_file="res://Casual game track.mp3"
+dest_files=[ "res://.import/Casual game track.mp3-7ab87b13b438ddb18190fd2c44e263b7.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

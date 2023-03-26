@@ -21,6 +21,10 @@ export var max_leap = 1000
 var moving = false
 var is_jumping = false
 
+export var score = 0
+export var lives = 5
+
+
 
 func _ready():
 	pass
@@ -56,4 +60,23 @@ func set_animation(anim):
 	else: $AnimatedSprite.play()
 
 func die():
+	var die_sound = get_node_or_null("/root/Game/Die_Sound")
+	if die_sound != null:
+		die_sound.play()
+	Global.lives -= 1
+	queue_free()
+
+
+func _on_Coin_Collector_body_entered(body):
+	if body.name == "Coins":
+		Global.score += 100
+		body.get_coin(global_position)
+		
+
+func do_damage(d):
+	var die_sound = get_node_or_null("/root/Game/Die_Sound")
+	if die_sound != null:
+		die_sound.play()
+	Global.score -= 100
+
 	queue_free()
